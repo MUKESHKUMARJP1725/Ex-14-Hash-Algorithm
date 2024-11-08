@@ -1,21 +1,48 @@
-# Ex-14 Hash Algorithm
+# Ex-14 HASH ALGORITHM
 
-## Date:
+<br>
 
-## Aim:
+## DATE:
+
+<br>
+
+## AIM:
+
+<br>
 
 To implement a hash algorithm using SHA-256 in C++ to compute the hash of a given input message.
 
-## Algorithm:
+<br>
 
-1. Initialize Constants: Define initial hash values and constants specific to SHA-256.
-2. Message Padding: Append padding to the message so that its length becomes congruent to 448 mod 512.
-3. Process Message Blocks: Divide the message into 512-bit blocks, and process each block in a loop.
-4. Initialize Working Variables: Set initial hash values for the current block.
-5. Compression Function: Use SHA-256 transformations (bitwise operations and modular additions) on each block.
-6. Output Hash: Combine the final values of the working variables to produce a 256-bit hash.
+## ALOGITHM:
 
-## Program:
+<br>
+
+Step 1: Initialize Constants: Define initial hash values and constants specific to SHA-256.
+
+<br>
+
+Step 2: Message Padding: Append padding to the message so that its length becomes congruent to 448 mod 512.
+
+<br>
+
+Step 3: Process Message Blocks: Divide the message into 512-bit blocks, and process each block in a loop.
+
+<br>
+
+Step 4: Initialize Working Variables: Set initial hash values for the current block.
+
+<br>
+
+Step 5: Compression Function: Use SHA-256 transformations (bitwise operations and modular additions) on each block.
+
+<br>
+
+Step 6: Output Hash: Combine the final values of the working variables to produce a 256-bit hash.
+
+## PROGRAM:
+
+<br>
 
 ```
 #include <iostream>
@@ -122,9 +149,18 @@ int main() {
 }
 ```
 
-## Output:
+<br>
+
+## OUTPUT:
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/461db865-4d20-4af2-9956-3c29f36ae3b1)
 
-## Result:
+<br>
+
+## RESULT:
+
+<br>
+
 Upon executing the code, the program will take a message as input, process it through the SHA-256 algorithm, and output the hash of the message.
